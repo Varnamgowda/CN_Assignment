@@ -1,0 +1,19 @@
+B01:
+Status Code:
+       The values of numeric status code to HTTP request are:
+`200
+`301
+`400
+`401
+
+
+200: These code indicate success, if the body section is present is the object returned by the request,
+and may only be in text/plain,text/html or one for the formats specified as acceptable in the requests.
+
+301:The request sent by the new URL is been changed which will be permanent.Which also specifies 
+alternative address for the object in question.The String in cmment field will be optional one.
+
+400:If the request which you send is in bad syntax then this will not be satisfied.
+
+401:This status code is the unauthorized which provides message a specification of charging schemes
+acceptable the client may retry the request with suitable ChargeTo header.
