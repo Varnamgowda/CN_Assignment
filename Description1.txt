@@ -1,0 +1,61 @@
+A07:
+This is to implement SMTP protocol;
+
+
+S: 220 smtp.example.com ESMTP 
+Postfix
+
+C: HELLO cn.example.com 
+
+S: 250 smtp.example.com, I am glad to meet you
+
+C: MAIL FROM:<varnamunegowda@gmail.com>
+
+S: 250 Ok
+
+C: RCPT TO:<pavani.22m@gmail.com>
+
+S: 250 Ok
+
+C: RCPT TO:<s.monikasmile311@gmail.com>
+
+S: 250 Ok
+
+C: DATA
+
+S: 354 End data with <CR><LF>.<CR><LF>
+
+C: From: "Varna" <varnamunegowda@gmail.com>
+
+C: To: Pavani  <pavani.22m@gmail.com>
+
+C: Cc: s.monikasmile311@gmail.com
+
+C: Date: Sat, 21 Sept 2019 12:02:43 -0500
+
+C: Subject: Text message
+
+C:
+
+C: Hello Pavani,
+
+C: Hope you are doing good!! 
+
+C: Your friend,
+
+C: Varna
+
+C:.
+
+S: 250
+
+Ok: queued as 12345
+
+C: QUIT
+
+S:221 Bye
+
+
+This is to send SMTP mail,SMTP is the standard protocol for email services on network.It is used send and recieve email messages.
+It can be client end or sever end.
+
